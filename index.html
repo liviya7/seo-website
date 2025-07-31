@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--website character encoding inu vendi-->
+    <!--1. to make the website responsive ,adjusting layout based on device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--2. set the description-->
+    <meta name="description" content="discover 10 delicious chicken baking recipies for 2018 ">
+    <!--tell search engine to index the page and follow the links-->
+    <meta name="robots" content="index.follow">
+    <!--prevent duplicate content or url issue by deffining the url-->
+    <link rel="canonical" href="https://compile.com/recipies/chhicken-bake">
+    <!--enhance appearance when shared on social media-->
+    <meta property="og.title" content="10 ways to bake chicken in 2018">
+    <meta property="og.description" content="learn unique ways to bake chicken">
+    <!--location optional-->
+    <meta name="geo.region" content="IN-KL">
+    <meta name="geo.placement" content="trivandrum">
+    <!--style link-->
+    <link rel="stylesheet" href="styles.css"><!--external css file for styling-->
+
+    <title>10 Ways to Bake Chicken in 2018</title>
+</head>
+<body>
+    <header>
+        <h1>top 10 chicken baking recipies</h1>
+    </header>
+    <section>
+        <h2>
+            1.herb Roasted chicken<!--subheading h2 helps the content hirarchy-->
+        </h2>
+        <img src="images/chicken.webp" alt="herb roasted chicken in oven tray">
+        <!--image with optimised help format and descriptive alt for  SEO-->
+        <P>this classic recipie uses rosemary, thyme and garlic for a  fragnant anf flavorful meal</P>
+        <a href="recipie.html">check out our chicken recipies</a>
+        <!--internal link with meaningfull anchor text-->
+    </section>
+    <!--responsive image demo-->
+    <picture>
+    <source srcset="images/chicken-mobile.jpg" media="(max-width:600px)">
+    <source srcset="images/chicken-desktop.jpg" media="(min-width:601px)">
+    <img src="images/chicken-desktop.jpg" alt="responsive images of chicken">
+    </body></picture>
+    <!--uses different images for mobile and desktop,improving loading time-->
+    <!--lazy loading video-->
+    <video conrols preload="none" poster="images/video-thumbnail.jpeg">
+        <source src="videos/chicken-recipe.mp4" type="video/mp4">
+        <source src="videos/chicken-recipe.ogg" type="video/ogg">
+        your browser does not support the video tag
+
+    </video>
+    
+        <!--footer with links-->
+    <footer>
+        <p>2025 chicken recipies. all rights reserved.</p>
+        <a href="privacy-policy.html">privacy policy</a>
+    </footer>
+</body>
+</html>
